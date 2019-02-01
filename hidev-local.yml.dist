@@ -1,0 +1,10 @@
+nginx:
+  fpmSocket: php-fpm
+  starter.yii:
+    ips: 0.0.0.0:80
+    domain: starter.yii
+    webDir: /project/starter/starter-master/public/site
+  admin.starter.yii:
+    ips: 0.0.0.0:80
+    domain: admin.starter.yii
+    webDir: /project/starter/starter-master/public/admin
