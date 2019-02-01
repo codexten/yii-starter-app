@@ -1,0 +1,11 @@
+package:
+  type: project
+  name: codexten/yii-starter-app
+  title: 'Yii starter app'
+  keywords: 'yii, yii-starter'
+vendor:
+  name: codexten
+  authors:
+    jomon:
+      email: 'Jomon Johnson'
+      name: 'jomonjohnson.dev@gmail.com'
