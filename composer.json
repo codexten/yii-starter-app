@@ -1,0 +1,44 @@
+{
+  "name": "codexten/codexten-yii-starter",
+  "type": "project",
+  "description": "Yii Starter App with Admin panel and frontend",
+  "keywords": [
+    "yii2",
+    "yii2-starter"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "codexten/yii-core": "~2.0"
+  },
+  "require-dev": {
+    "codexten/yii-dev": "~2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "config": {
+    "process-timeout": 0,
+    "secure-http": false,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "./vendor/bin/hidev ext",
+      "composer du --verbose",
+      "chown -R www-data:www-data /cpanel /en /project /disks"
+    ],
+    "post-update-cmd": [
+      "composer install"
+    ]
+  },
+  "extra": {
+    "sconfig-plugin": {
+      "params": "config/params.php"
+    }
+  }
+}
