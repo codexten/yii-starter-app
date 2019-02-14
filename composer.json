@@ -7,9 +7,6 @@
     "yii2-starter"
   ],
   "minimum-stability": "dev",
-  "require": {
-    "codexten/yii-core": "~2.0"
-  },
   "require-dev": {
     "codexten/yii-dev": "~2.0"
   },

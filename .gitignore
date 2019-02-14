@@ -20,5 +20,7 @@ nbproject
 
 # Binaries
 composer.phar
-
 vendor
+
+# endev
+.ext
