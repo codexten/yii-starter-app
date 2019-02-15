@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-dev.git",
-                "reference": "965deaf791dbac52be9951fc435e06034c3a687a"
+                "reference": "c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/965deaf791dbac52be9951fc435e06034c3a687a",
-                "reference": "965deaf791dbac52be9951fc435e06034c3a687a",
+                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5",
+                "reference": "c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5",
                 "shasum": ""
             },
             "require": {
@@ -238,11 +238,12 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "description": "YiiSoft vendor configuration for HiDev",
+            "description": "Vendor configuration for HiDev",
             "keywords": [
-                "hidev"
+                "hidev",
+                "yii"
             ],
-            "time": "2019-02-14T16:02:34+00:00"
+            "time": "2019-02-14T16:12:59+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -806,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "7dff42e89313e3e64a3842fd371d59a83293157b"
+                "reference": "19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7dff42e89313e3e64a3842fd371d59a83293157b",
-                "reference": "7dff42e89313e3e64a3842fd371d59a83293157b",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7",
+                "reference": "19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7",
                 "shasum": ""
             },
             "require": {
@@ -827,7 +828,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -865,7 +866,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-02-14T06:47:02+00:00"
+            "time": "2019-02-15T03:24:29+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
