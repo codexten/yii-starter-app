@@ -147,20 +147,53 @@
             "time": "2018-12-10T09:41:35+00:00"
         },
         {
+            "name": "codexten/docs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codexten/docs.git",
+                "reference": "a66a4c0b374ae9cdd9230383fc48599994db23f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codexten/docs/zipball/a66a4c0b374ae9cdd9230383fc48599994db23f6",
+                "reference": "a66a4c0b374ae9cdd9230383fc48599994db23f6",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Codexten Docs",
+            "keywords": [
+                "codexten",
+                "docs",
+                "yii2"
+            ],
+            "time": "2019-02-17T07:46:33+00:00"
+        },
+        {
             "name": "codexten/yii-core",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-core.git",
-                "reference": "45f40d35da91c191f78b8d47cb84a041a552f48a"
+                "reference": "f3fa6c4b08dbe59ba520de7539af6f859b42fd5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-core/zipball/45f40d35da91c191f78b8d47cb84a041a552f48a",
-                "reference": "45f40d35da91c191f78b8d47cb84a041a552f48a",
+                "url": "https://api.github.com/repos/codexten/yii-core/zipball/f3fa6c4b08dbe59ba520de7539af6f859b42fd5d",
+                "reference": "f3fa6c4b08dbe59ba520de7539af6f859b42fd5d",
                 "shasum": ""
             },
             "require": {
+                "codexten/docs": "~2.0",
                 "vlucas/phpdotenv": "v2.5.1",
                 "yiisoft/yii2": "~2.0"
             },
@@ -169,17 +202,10 @@
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 },
-                "sconfig-plugin": {
-                    "params": "src/config/params.php",
-                    "defines": "src/config/defines.php",
-                    "helpers": "src/config/helpers.php",
-                    "mailer": "src/config/mailer.php",
+                "config-plugin": {
                     "i18n": "src/config/i18n.php",
-                    "core": "src/config/core.php",
-                    "migrationNamespaces": "src/config/migrationNamespaces.php",
-                    "console": "src/config/console.php",
-                    "grid": "src/grid/config/grid.php",
-                    "builder": "src/builder/config/builder.php"
+                    "mailer": "src/config/mailer.php",
+                    "core": "src/config/core.php"
                 }
             },
             "autoload": {
@@ -191,11 +217,12 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "eii",
+            "description": "Yii framework extended for Codexten",
             "keywords": [
+                "codexten",
                 "yii2"
             ],
-            "time": "2019-02-14T14:50:05+00:00"
+            "time": "2019-02-18T11:56:54+00:00"
         },
         {
             "name": "codexten/yii-dev",
@@ -807,12 +834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7"
+                "reference": "99011015fb069ce473d8ff96cb2e86ad23e320e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7",
-                "reference": "19da8de66d984fcd3b7b7bb76b480e1d5b7f79f7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/99011015fb069ce473d8ff96cb2e86ad23e320e2",
+                "reference": "99011015fb069ce473d8ff96cb2e86ad23e320e2",
                 "shasum": ""
             },
             "require": {
@@ -866,7 +893,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-02-15T03:24:29+00:00"
+            "time": "2019-02-17T18:30:43+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -924,12 +951,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "6138e83e55fb502066d58d11a81e003363dec200"
+                "reference": "f6921f4a8626d3ba37b71d5ed692ba87170ab3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6138e83e55fb502066d58d11a81e003363dec200",
-                "reference": "6138e83e55fb502066d58d11a81e003363dec200",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f6921f4a8626d3ba37b71d5ed692ba87170ab3c9",
+                "reference": "f6921f4a8626d3ba37b71d5ed692ba87170ab3c9",
                 "shasum": ""
             },
             "require": {
@@ -1016,7 +1043,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-02-13T20:22:07+00:00"
+            "time": "2019-02-17T15:33:29+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -1024,19 +1051,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac"
+                "reference": "2caf2e7c6127085315d43d5034326f7bdf83b6a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac",
-                "reference": "f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/2caf2e7c6127085315d43d5034326f7bdf83b6a6",
+                "reference": "2caf2e7c6127085315d43d5034326f7bdf83b6a6",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0"
             },
             "require-dev": {
-                "composer/composer": "^1.0"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": "<7"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1070,7 +1098,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2018-08-25T10:44:34+00:00"
+            "time": "2019-02-18T10:24:42+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -1078,12 +1106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "889f8e063ce8461ff49afd5b9c9464fcba632c19"
+                "reference": "87f0c608b69f1c2a337a8e911ac71822dcb552ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/889f8e063ce8461ff49afd5b9c9464fcba632c19",
-                "reference": "889f8e063ce8461ff49afd5b9c9464fcba632c19",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/87f0c608b69f1c2a337a8e911ac71822dcb552ef",
+                "reference": "87f0c608b69f1c2a337a8e911ac71822dcb552ef",
                 "shasum": ""
             },
             "require": {
@@ -1127,7 +1155,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2019-02-04T09:11:13+00:00"
+            "time": "2019-02-18T10:22:45+00:00"
         },
         {
             "name": "yiisoft/yii2-twig",
