@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87e84d24cc07b36ba1e3e8e67e104f6f",
+    "content-hash": "4eb3b684c3bbde06fee555f28688a3bc",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -213,17 +213,61 @@
             "time": "2019-02-17T07:46:33+00:00"
         },
         {
+            "name": "codexten/yii-app-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codexten/yii-app-admin.git",
+                "reference": "df15339f5be68d1ff82acddef403d6c5f3cf1b7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/df15339f5be68d1ff82acddef403d6c5f3cf1b7e",
+                "reference": "df15339f5be68d1ff82acddef403d6c5f3cf1b7e",
+                "shasum": ""
+            },
+            "require": {
+                "codexten/yii-web": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "sconfig-plugin": {
+                    "console": "src/config/console.php",
+                    "admin": [
+                        "$web",
+                        "$adminModuleUser",
+                        "src/config/admin.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "codexten\\yii\\admin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Yii admin application",
+            "keywords": [
+                "codexten",
+                "yii2"
+            ],
+            "time": "2019-02-22T17:51:54+00:00"
+        },
+        {
             "name": "codexten/yii-app-console",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-app-console.git",
-                "reference": "0dcfab132f54f7913cd53f3b2a32c60e1f02225b"
+                "reference": "cf4456a16e29bea78f5d02b2cf12ddb59a3b0529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-app-console/zipball/0dcfab132f54f7913cd53f3b2a32c60e1f02225b",
-                "reference": "0dcfab132f54f7913cd53f3b2a32c60e1f02225b",
+                "url": "https://api.github.com/repos/codexten/yii-app-console/zipball/cf4456a16e29bea78f5d02b2cf12ddb59a3b0529",
+                "reference": "cf4456a16e29bea78f5d02b2cf12ddb59a3b0529",
                 "shasum": ""
             },
             "require": {
@@ -235,7 +279,7 @@
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 },
-                "sconfig-plugin": {
+                "config-plugin": {
                     "hidev": "src/config/hidev.php",
                     "params": "src/config/params.php",
                     "migrationNamespaces": "src/config/migrationNamespaces.php",
@@ -252,7 +296,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "yii console app",
-            "time": "2019-02-22T11:44:44+00:00"
+            "time": "2019-02-22T17:45:32+00:00"
         },
         {
             "name": "codexten/yii-app-site",
@@ -299,12 +343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-core.git",
-                "reference": "3867c600b8b1a9ed0bb0a53843ff653e5ed3d1b0"
+                "reference": "d074b257cd1ee9b6ca40227c7169fa41b8a5a441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-core/zipball/3867c600b8b1a9ed0bb0a53843ff653e5ed3d1b0",
-                "reference": "3867c600b8b1a9ed0bb0a53843ff653e5ed3d1b0",
+                "url": "https://api.github.com/repos/codexten/yii-core/zipball/d074b257cd1ee9b6ca40227c7169fa41b8a5a441",
+                "reference": "d074b257cd1ee9b6ca40227c7169fa41b8a5a441",
                 "shasum": ""
             },
             "require": {
@@ -318,6 +362,7 @@
                     "dev-master": "2.0.x-dev"
                 },
                 "config-plugin": {
+                    "params": "src/config/params.php",
                     "i18n": "src/config/i18n.php",
                     "mailer": "src/config/mailer.php",
                     "core": "src/config/core.php"
@@ -337,7 +382,7 @@
                 "codexten",
                 "yii2"
             ],
-            "time": "2019-02-22T09:22:15+00:00"
+            "time": "2019-02-22T17:23:32+00:00"
         },
         {
             "name": "codexten/yii-mailqueue",
@@ -1173,20 +1218,100 @@
     ],
     "packages-dev": [
         {
+            "name": "codexten/nginx",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codexten/nginx.git",
+                "reference": "532d5157f1886cf7d9f2a15f879bb847f6d9e36c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codexten/nginx/zipball/532d5157f1886cf7d9f2a15f879bb847f6d9e36c",
+                "reference": "532d5157f1886cf7d9f2a15f879bb847f6d9e36c",
+                "shasum": ""
+            },
+            "require": {
+                "codexten/php-hosts": "2.0.*",
+                "hiqdev/hidev-nginx": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "sconfig-plugin": {
+                    "nginx": [
+                        "$hosts",
+                        "src/config/nginx.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "codexten\\nginx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "php niginx manager",
+            "keywords": [
+                "nginx",
+                "php"
+            ],
+            "time": "2019-02-22T18:08:51+00:00"
+        },
+        {
+            "name": "codexten/php-hosts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codexten/php-hosts.git",
+                "reference": "c4900ecf0d2d6c8eb32c927f3887c9f48929006c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codexten/php-hosts/zipball/c4900ecf0d2d6c8eb32c927f3887c9f48929006c",
+                "reference": "c4900ecf0d2d6c8eb32c927f3887c9f48929006c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "sconfig-plugin": {
+                    "hosts": "src/config/hosts.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "codexten\\hosts\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "php hosts file manager",
+            "keywords": [
+                "codexten",
+                "hosts"
+            ],
+            "time": "2019-02-22T18:03:03+00:00"
+        },
+        {
             "name": "codexten/yii-dev",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-dev.git",
-                "reference": "c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5"
+                "reference": "8233aeacb88d0c953d7f570f0bbe55f1e5290621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5",
-                "reference": "c1043cb3a7bde0cfea18ae188f7f83ecbe74d5b5",
+                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/8233aeacb88d0c953d7f570f0bbe55f1e5290621",
+                "reference": "8233aeacb88d0c953d7f570f0bbe55f1e5290621",
                 "shasum": ""
             },
             "require": {
+                "codexten/nginx": "~2.0.0",
                 "codexten/yii-core": "~2.0",
                 "hiqdev/composer-config-plugin": "*@dev",
                 "hiqdev/hidev": "dev-master",
@@ -1218,7 +1343,7 @@
                 "hidev",
                 "yii"
             ],
-            "time": "2019-02-14T16:12:59+00:00"
+            "time": "2019-02-22T18:10:26+00:00"
         },
         {
             "name": "hiqdev/composer-config-plugin",
@@ -1378,6 +1503,78 @@
                 "task runner"
             ],
             "time": "2019-02-21T10:55:10+00:00"
+        },
+        {
+            "name": "hiqdev/hidev-nginx",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hiqdev/hidev-nginx.git",
+                "reference": "fe7a12ca427ecf3916255bd7ea41b34d3688da5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hiqdev/hidev-nginx/zipball/fe7a12ca427ecf3916255bd7ea41b34d3688da5b",
+                "reference": "fe7a12ca427ecf3916255bd7ea41b34d3688da5b",
+                "shasum": ""
+            },
+            "require": {
+                "hiqdev/composer-config-plugin": "*@dev"
+            },
+            "require-dev": {
+                "hiqdev/hidev": "dev-master",
+                "hiqdev/hidev-hiqdev": "<2.0",
+                "hiqdev/hidev-php": "<2.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "config-plugin": {
+                    "hidev": "src/config/hidev.php",
+                    "tests": "src/config/tests.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "hidev\\nginx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrii Vasyliev",
+                    "email": "sol@hiqdev.com",
+                    "homepage": "http://hipanel.com/",
+                    "role": "Project lead"
+                },
+                {
+                    "name": "Dmitry Naumenko",
+                    "email": "d.naumenko.a@gmail.com",
+                    "homepage": "http://silverfire.me/",
+                    "role": "Lead backend developer"
+                },
+                {
+                    "name": "Andrey Klochok",
+                    "email": "andreyklochok@gmail.com",
+                    "homepage": "http://hiqdev.com/",
+                    "role": "Lead frontend developer"
+                },
+                {
+                    "name": "Yuriy Myronchuk",
+                    "email": "bladeroot@gmail.com",
+                    "homepage": "http://hiqdev.com/",
+                    "role": "QA Lead"
+                }
+            ],
+            "description": "HiDev plugin for NGINX",
+            "homepage": "https://github.com/hiqdev/hidev-nginx",
+            "keywords": [
+                "hidev",
+                "nginx"
+            ],
+            "time": "2018-11-27T18:58:36+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
