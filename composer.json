@@ -9,7 +9,7 @@
   "minimum-stability": "dev",
   "require": {
     "codexten/yii-app-site": "~2.0",
-    "codexten/app-console": "~2.0"
+    "codexten/yii-app-console": "~2.0"
   },
   "require-dev": {
     "codexten/yii-dev": "~2.0"
