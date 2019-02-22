@@ -8,7 +8,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "entero/entero-app-site": "~2.0",
+    "entero/yii-app-site": "~2.0",
     "codexten/app-console": "~2.0"
   },
   "require-dev": {
