@@ -18,6 +18,15 @@
 Thumbs.db
 nbproject
 
+# site directories
+/public/site/assets/*
+runtime/frontend/*
+runtime/site/*
+
+# Console directories
+runtime/console/*
+runtime/logs/cron*
+
 # Binaries
 composer.phar
 vendor

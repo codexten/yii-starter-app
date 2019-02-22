@@ -8,6 +8,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "codexten/yii-app-admin": "~2.0",
     "codexten/yii-app-site": "~2.0",
     "codexten/yii-app-console": "~2.0",
     "codexten/yii-mailqueue": "~2.0"
