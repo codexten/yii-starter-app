@@ -26,7 +26,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://asset-packagist.org"
+      "url": "https://repo.packagist.com/entero/"
     }
   ],
   "config": {
@@ -40,7 +40,7 @@
     "post-install-cmd": [
       "./vendor/bin/hidev ext",
       "composer du --verbose",
-      "chown -R www-data:www-data /cpanel /en /project /disks"
+      "chown -R www-data:www-data /cpanel /en /project"
     ],
     "post-update-cmd": [
       "composer install"

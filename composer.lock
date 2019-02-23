@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4eb3b684c3bbde06fee555f28688a3bc",
+    "content-hash": "942b4373f7c08c821dcad15175407944",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -18,12 +18,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/5e670ad62f50c738388d4dcec78d2888505ad77b",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b",
-                "shasum": null
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
             },
             "type": "bower-asset",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "http://opensource.org/licenses/mit-license.php"
             ]
@@ -40,9 +47,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
                 "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
-                "shasum": null
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "type": "bower-asset",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ]
@@ -59,9 +73,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
-                "shasum": null
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
-            "type": "bower-asset"
+            "type": "bower-asset",
+            "notification-url": "https://repo.packagist.com/entero/downloads/"
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -75,12 +96,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/aef7b953107264f00234902a3880eb50dafc48be",
                 "reference": "aef7b953107264f00234902a3880eb50dafc48be",
-                "shasum": null
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "bower-asset/jquery": ">=1.8"
             },
             "type": "bower-asset",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ]
@@ -97,7 +125,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/cebe/markdown/zipball/eeb1bf622e80f337479e00a5db94c56e7cf1326b",
                 "reference": "eeb1bf622e80f337479e00a5db94c56e7cf1326b",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "lib-pcre": "*",
@@ -122,7 +156,7 @@
                     "cebe\\markdown\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -157,7 +191,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/app-site-dev/zipball/66e5e9a29ac8ce4e166fed3b7ae668b10b6e896b",
                 "reference": "66e5e9a29ac8ce4e166fed3b7ae668b10b6e896b",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/yii-web": "~2.0"
@@ -176,8 +216,12 @@
                     "codexten\\site\\dev\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "file generator for site app",
+            "support": {
+                "source": "https://github.com/codexten/app-site-dev/tree/master",
+                "issues": "https://github.com/codexten/app-site-dev/issues"
+            },
             "time": "2019-02-21T11:21:00+00:00"
         },
         {
@@ -192,7 +236,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/docs/zipball/a66a4c0b374ae9cdd9230383fc48599994db23f6",
                 "reference": "a66a4c0b374ae9cdd9230383fc48599994db23f6",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "type": "library",
             "extra": {
@@ -200,7 +250,7 @@
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -218,16 +268,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-app-admin.git",
-                "reference": "df15339f5be68d1ff82acddef403d6c5f3cf1b7e"
+                "reference": "38debde59e3ebd3ed8193cea7b0c56943cf0a371"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/df15339f5be68d1ff82acddef403d6c5f3cf1b7e",
-                "reference": "df15339f5be68d1ff82acddef403d6c5f3cf1b7e",
-                "shasum": ""
+                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/38debde59e3ebd3ed8193cea7b0c56943cf0a371",
+                "reference": "38debde59e3ebd3ed8193cea7b0c56943cf0a371",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "codexten/yii-web": "~2.0"
+                "codexten/yii-web": "~2.0",
+                "entero/entero-admin-module-user": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -248,13 +305,17 @@
                     "codexten\\yii\\admin\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "Yii admin application",
             "keywords": [
                 "codexten",
                 "yii2"
             ],
-            "time": "2019-02-22T17:51:54+00:00"
+            "support": {
+                "source": "https://github.com/codexten/yii-app-admin/tree/master",
+                "issues": "https://github.com/codexten/yii-app-admin/issues"
+            },
+            "time": "2019-02-23T17:41:20+00:00"
         },
         {
             "name": "codexten/yii-app-console",
@@ -268,7 +329,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/yii-app-console/zipball/cf4456a16e29bea78f5d02b2cf12ddb59a3b0529",
                 "reference": "cf4456a16e29bea78f5d02b2cf12ddb59a3b0529",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/yii-core": "2.0.*",
@@ -294,8 +361,12 @@
                     "codexten\\yii\\console\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "yii console app",
+            "support": {
+                "source": "https://github.com/codexten/yii-app-console/tree/master",
+                "issues": "https://github.com/codexten/yii-app-console/issues"
+            },
             "time": "2019-02-22T17:45:32+00:00"
         },
         {
@@ -310,7 +381,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/yii-app-site/zipball/7bc73c5dbc29ccffd6126114a40a9b43b4f28c78",
                 "reference": "7bc73c5dbc29ccffd6126114a40a9b43b4f28c78",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/app-site-dev": "~2.0",
@@ -333,8 +410,12 @@
                     "codexten\\yii\\site\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "Eii storage",
+            "support": {
+                "source": "https://github.com/codexten/yii-app-site/tree/master",
+                "issues": "https://github.com/codexten/yii-app-site/issues"
+            },
             "time": "2019-02-22T11:31:41+00:00"
         },
         {
@@ -349,7 +430,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/yii-core/zipball/d074b257cd1ee9b6ca40227c7169fa41b8a5a441",
                 "reference": "d074b257cd1ee9b6ca40227c7169fa41b8a5a441",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/docs": "~2.0",
@@ -373,7 +460,7 @@
                     "codexten\\yii\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -390,13 +477,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-mailqueue.git",
-                "reference": "e008a37246ac759eae02a84e04c4760d110d0bd4"
+                "reference": "0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-mailqueue/zipball/e008a37246ac759eae02a84e04c4760d110d0bd4",
-                "reference": "e008a37246ac759eae02a84e04c4760d110d0bd4",
-                "shasum": ""
+                "url": "https://api.github.com/repos/codexten/yii-mailqueue/zipball/0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703",
+                "reference": "0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/yii-core": "~2.0",
@@ -421,9 +514,9 @@
                     "codexten\\yii\\mailqueue\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "Codexten Yii Mailer",
-            "time": "2019-02-23T07:43:54+00:00"
+            "time": "2019-02-19T11:21:15+00:00"
         },
         {
             "name": "codexten/yii-web",
@@ -437,7 +530,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/yii-web/zipball/7e839665e70910744f465d957eefebcd40e25133",
                 "reference": "7e839665e70910744f465d957eefebcd40e25133",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/yii-core": "~2.0",
@@ -462,13 +561,179 @@
                     "codexten\\yii\\web\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "extented yii web components for codexten packages",
             "keywords": [
                 "codexten",
                 "yii2"
             ],
             "time": "2019-02-23T07:43:54+00:00"
+        },
+        {
+            "name": "entero-module/entero-module-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:entero-module/entero-module-api.git",
+                "reference": "cdda08e6157cea82b907b4b69198bf4a7f4590b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/entero-module/entero-module-api/9999999-dev/cdda08e6157cea82b907b4b69198bf4a7f4590b5.zip",
+                "reference": "cdda08e6157cea82b907b4b69198bf4a7f4590b5",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "config-plugin": {
+                    "moduleApi": "src/config/moduleApi.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "entero\\module\\api\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "En module api",
+            "time": "2018-12-23T08:37:16+00:00"
+        },
+        {
+            "name": "entero/entero-admin-module-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:entero/entero-admin-module-user.git",
+                "reference": "f17abe124fea745441c09fc58887a8824953f011"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/entero/entero-admin-module-user/9999999-dev/f17abe124fea745441c09fc58887a8824953f011.zip",
+                "reference": "f17abe124fea745441c09fc58887a8824953f011",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "entero-module/entero-module-api": "2.0.*",
+                "entero/entero-module-user": "2.1.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                },
+                "config-plugin": {
+                    "adminModuleUser": [
+                        "$moduleApi",
+                        "$moduleUser",
+                        "src/config/adminModuleUser.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "entero\\admin\\module\\user\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "Eii User admin module",
+            "time": "2018-11-18T17:21:42+00:00"
+        },
+        {
+            "name": "entero/entero-module-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:entero/entero-module-user.git",
+                "reference": "75628944513c3caf40833a53c76e0d90de504236"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/entero/entero-module-user/9999999-dev/75628944513c3caf40833a53c76e0d90de504236.zip",
+                "reference": "75628944513c3caf40833a53c76e0d90de504236",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "entero/entero-user": "2.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                },
+                "config-plugin": {
+                    "i18n": "src/config/i18n.php",
+                    "moduleUser": "src/config/moduleUser.php",
+                    "migrationNamespaces": "src/config/migrationNamespaces.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "entero\\module\\user\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "Eii user Module",
+            "time": "2019-01-09T07:01:25+00:00"
+        },
+        {
+            "name": "entero/entero-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:entero/entero-user.git",
+                "reference": "fa4c1a4fc545b281c995f630ffa70c0781dc3e59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/entero/entero-user/9999999-dev/fa4c1a4fc545b281c995f630ffa70c0781dc3e59.zip",
+                "reference": "fa4c1a4fc545b281c995f630ffa70c0781dc3e59",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "config-plugin": {
+                    "migrationNamespaces": "src/config/migrationNamespaces.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "entero\\user\\": "src",
+                    "entero\\models\\": "src/models"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "Entero user",
+            "time": "2018-12-30T10:15:39+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -482,7 +747,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
                 "reference": "d85d39da4576a6934b72480be6978fb10c860021",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.2"
@@ -499,7 +770,7 @@
                     "library/HTMLPurifier.composer.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "LGPL"
             ],
@@ -529,7 +800,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/php-collection/zipball/7f7fdacb62ff848147607a018ee889a4ae8fb010",
                 "reference": "7f7fdacb62ff848147607a018ee889a4ae8fb010",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require-dev": {
                 "hiqdev/hidev-hiqdev": "*",
@@ -541,7 +818,7 @@
                     "hiqdev\\php\\collection\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -592,7 +869,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/yii2-collection/zipball/6d7c440849fcedf1160f77046fe5a75d497bdd48",
                 "reference": "6d7c440849fcedf1160f77046fe5a75d497bdd48",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hiqdev/php-collection": "*",
@@ -608,7 +891,7 @@
                     "hiqdev\\yii2\\collection\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -659,7 +942,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/yii2-menus/zipball/61317a73189b6b5581d6c70b45da21c6d8ae37e1",
                 "reference": "61317a73189b6b5581d6c70b45da21c6d8ae37e1",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hiqdev/yii2-collection": "<2.0 || dev-master",
@@ -675,7 +964,7 @@
                     "hiqdev\\yii2\\menus\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -725,7 +1014,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/8d063449981e3f7bd28a3a083842e21a24d1f4af",
                 "reference": "8d063449981e3f7bd28a3a083842e21a24d1f4af",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.0"
@@ -740,7 +1035,7 @@
                     "Ifsnop\\": "src/Ifsnop/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -777,7 +1072,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/katzgrau/KLogger/zipball/a4ed373fa8a214aa4ae7aa4f221fe2c6ce862ef1",
                 "reference": "a4ed373fa8a214aa4ae7aa4f221fe2c6ce862ef1",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3",
@@ -795,7 +1096,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -827,7 +1128,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
                 "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.0"
@@ -843,7 +1150,7 @@
                     "Psr\\Log\\": "Psr/Log/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -874,7 +1181,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/rkrx/php-wildcards/zipball/8c18d86be1c0ec270fb64b62b1cc37a9a80581fa",
                 "reference": "8c18d86be1c0ec270fb64b62b1cc37a9a80581fa",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">= 5.3.0"
@@ -888,7 +1201,7 @@
                     "Kir\\StringUtils\\Matching\\Wildcards\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -918,7 +1231,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
                 "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.3"
@@ -938,7 +1257,7 @@
                     "lib/swift_required.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -972,7 +1291,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
                 "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.9"
@@ -991,7 +1316,7 @@
                     "Dotenv\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1022,7 +1347,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/789de9783d41e6ca10fffc3644a43a764f79b399",
                 "reference": "789de9783d41e6ca10fffc3644a43a764f79b399",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
@@ -1051,7 +1382,7 @@
                     "yii\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1122,7 +1453,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/2caf2e7c6127085315d43d5034326f7bdf83b6a6",
                 "reference": "2caf2e7c6127085315d43d5034326f7bdf83b6a6",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "composer-plugin-api": "^1.0"
@@ -1143,7 +1480,7 @@
                     "yii\\composer\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1177,7 +1514,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/8a03a62cbcb82e7697d3002eb43a8d2637f566ec",
                 "reference": "8a03a62cbcb82e7697d3002eb43a8d2637f566ec",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "swiftmailer/swiftmailer": "~5.0",
@@ -1194,7 +1537,7 @@
                     "yii\\swiftmailer\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1223,13 +1566,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/nginx.git",
-                "reference": "0391de16e84db2f8b1a0dd3bda0e9efa859867b8"
+                "reference": "7cde8814de3d1a2b8e467c8eaf6eeb546e844e60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/nginx/zipball/0391de16e84db2f8b1a0dd3bda0e9efa859867b8",
-                "reference": "0391de16e84db2f8b1a0dd3bda0e9efa859867b8",
-                "shasum": ""
+                "url": "https://api.github.com/repos/codexten/nginx/zipball/7cde8814de3d1a2b8e467c8eaf6eeb546e844e60",
+                "reference": "7cde8814de3d1a2b8e467c8eaf6eeb546e844e60",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/php-hosts": "2.0.*",
@@ -1252,13 +1601,17 @@
                     "codexten\\nginx\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "php niginx manager",
             "keywords": [
                 "nginx",
                 "php"
             ],
-            "time": "2019-02-22T18:19:18+00:00"
+            "support": {
+                "source": "https://github.com/codexten/nginx/tree/master",
+                "issues": "https://github.com/codexten/nginx/issues"
+            },
+            "time": "2019-02-23T17:41:20+00:00"
         },
         {
             "name": "codexten/php-hosts",
@@ -1272,7 +1625,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/php-hosts/zipball/7a8a6f7efbfc322b043538335fca62ef749d9ce3",
                 "reference": "7a8a6f7efbfc322b043538335fca62ef749d9ce3",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "type": "library",
             "extra": {
@@ -1288,12 +1647,16 @@
                     "codexten\\hosts\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "php hosts file manager",
             "keywords": [
                 "codexten",
                 "hosts"
             ],
+            "support": {
+                "source": "https://github.com/codexten/php-hosts/tree/master",
+                "issues": "https://github.com/codexten/php-hosts/issues"
+            },
             "time": "2019-02-22T18:19:18+00:00"
         },
         {
@@ -1308,7 +1671,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/codexten/yii-dev/zipball/8233aeacb88d0c953d7f570f0bbe55f1e5290621",
                 "reference": "8233aeacb88d0c953d7f570f0bbe55f1e5290621",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "codexten/nginx": "~2.0.0",
@@ -1337,7 +1706,7 @@
                     "codexten\\yii\\dev\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "Vendor configuration for HiDev",
             "keywords": [
                 "hidev",
@@ -1357,7 +1726,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/composer-config-plugin/zipball/9f61a782084ee2fa0f68ef4662cb9858752246f4",
                 "reference": "9f61a782084ee2fa0f68ef4662cb9858752246f4",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "composer-plugin-api": "^1.0",
@@ -1382,7 +1757,7 @@
                     "hiqdev\\composer\\config\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1434,7 +1809,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/hidev/zipball/534eda55893cc876bb63cff6b4e8eeaf70c71ab9",
                 "reference": "534eda55893cc876bb63cff6b4e8eeaf70c71ab9",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hiqdev/yii2-collection": "*",
@@ -1462,7 +1843,7 @@
                     "hidev\\tests\\": "tests"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1516,7 +1897,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hiqdev/hidev-nginx/zipball/fe7a12ca427ecf3916255bd7ea41b34d3688da5b",
                 "reference": "fe7a12ca427ecf3916255bd7ea41b34d3688da5b",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hiqdev/composer-config-plugin": "*@dev"
@@ -1538,7 +1925,7 @@
                     "hidev\\nginx\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1588,7 +1975,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
                 "reference": "82ebae02209c21113908c229e9883c419720738a",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.3"
@@ -1610,7 +2003,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1646,7 +2039,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
                 "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.3"
@@ -1668,7 +2067,7 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1705,7 +2104,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/57f1ce82c997f5a8701b89ef970e36bb657fd09c",
                 "reference": "57f1ce82c997f5a8701b89ef970e36bb657fd09c",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8",
@@ -1734,7 +2139,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1764,7 +2169,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/twigphp/Twig/zipball/eae31defbac3681bb8497cc173e83a3d68332692",
                 "reference": "eae31defbac3681bb8497cc173e83a3d68332692",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": "^7.0",
@@ -1790,7 +2201,7 @@
                     "Twig\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1831,7 +2242,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/87f0c608b69f1c2a337a8e911ac71822dcb552ef",
                 "reference": "87f0c608b69f1c2a337a8e911ac71822dcb552ef",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "ext-mbstring": "*",
@@ -1854,7 +2271,7 @@
                     "yii\\debug\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1888,7 +2305,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-twig/zipball/f532e49b23d16206e99a912ad19963042d91f617",
                 "reference": "f532e49b23d16206e99a912ad19963042d91f617",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "twig/twig": "~2.0",
@@ -1905,7 +2328,7 @@
                     "yii\\twig\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
