@@ -390,12 +390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-mailqueue.git",
-                "reference": "0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703"
+                "reference": "e008a37246ac759eae02a84e04c4760d110d0bd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-mailqueue/zipball/0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703",
-                "reference": "0cbbdea0d8b61d5eea2c1485c0b6be2acbdbd703",
+                "url": "https://api.github.com/repos/codexten/yii-mailqueue/zipball/e008a37246ac759eae02a84e04c4760d110d0bd4",
+                "reference": "e008a37246ac759eae02a84e04c4760d110d0bd4",
                 "shasum": ""
             },
             "require": {
@@ -423,7 +423,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Codexten Yii Mailer",
-            "time": "2019-02-19T11:21:15+00:00"
+            "time": "2019-02-23T07:43:54+00:00"
         },
         {
             "name": "codexten/yii-web",
@@ -431,12 +431,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-web.git",
-                "reference": "f94734a10376072873a6c51fd851657d4ba9893a"
+                "reference": "7e839665e70910744f465d957eefebcd40e25133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-web/zipball/f94734a10376072873a6c51fd851657d4ba9893a",
-                "reference": "f94734a10376072873a6c51fd851657d4ba9893a",
+                "url": "https://api.github.com/repos/codexten/yii-web/zipball/7e839665e70910744f465d957eefebcd40e25133",
+                "reference": "7e839665e70910744f465d957eefebcd40e25133",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +468,7 @@
                 "codexten",
                 "yii2"
             ],
-            "time": "2019-02-20T05:57:46+00:00"
+            "time": "2019-02-23T07:43:54+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -1223,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/nginx.git",
-                "reference": "532d5157f1886cf7d9f2a15f879bb847f6d9e36c"
+                "reference": "0391de16e84db2f8b1a0dd3bda0e9efa859867b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/nginx/zipball/532d5157f1886cf7d9f2a15f879bb847f6d9e36c",
-                "reference": "532d5157f1886cf7d9f2a15f879bb847f6d9e36c",
+                "url": "https://api.github.com/repos/codexten/nginx/zipball/0391de16e84db2f8b1a0dd3bda0e9efa859867b8",
+                "reference": "0391de16e84db2f8b1a0dd3bda0e9efa859867b8",
                 "shasum": ""
             },
             "require": {
@@ -1240,7 +1240,7 @@
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 },
-                "sconfig-plugin": {
+                "config-plugin": {
                     "nginx": [
                         "$hosts",
                         "src/config/nginx.php"
@@ -1258,7 +1258,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-02-22T18:08:51+00:00"
+            "time": "2019-02-22T18:19:18+00:00"
         },
         {
             "name": "codexten/php-hosts",
@@ -1266,12 +1266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/php-hosts.git",
-                "reference": "c4900ecf0d2d6c8eb32c927f3887c9f48929006c"
+                "reference": "7a8a6f7efbfc322b043538335fca62ef749d9ce3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/php-hosts/zipball/c4900ecf0d2d6c8eb32c927f3887c9f48929006c",
-                "reference": "c4900ecf0d2d6c8eb32c927f3887c9f48929006c",
+                "url": "https://api.github.com/repos/codexten/php-hosts/zipball/7a8a6f7efbfc322b043538335fca62ef749d9ce3",
+                "reference": "7a8a6f7efbfc322b043538335fca62ef749d9ce3",
                 "shasum": ""
             },
             "type": "library",
@@ -1279,7 +1279,7 @@
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 },
-                "sconfig-plugin": {
+                "config-plugin": {
                     "hosts": "src/config/hosts.php"
                 }
             },
@@ -1294,7 +1294,7 @@
                 "codexten",
                 "hosts"
             ],
-            "time": "2019-02-22T18:03:03+00:00"
+            "time": "2019-02-22T18:19:18+00:00"
         },
         {
             "name": "codexten/yii-dev",
@@ -1699,12 +1699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ba11776e9e6c15ad5759a07bffb15899bac75c2d"
+                "reference": "57f1ce82c997f5a8701b89ef970e36bb657fd09c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ba11776e9e6c15ad5759a07bffb15899bac75c2d",
-                "reference": "ba11776e9e6c15ad5759a07bffb15899bac75c2d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/57f1ce82c997f5a8701b89ef970e36bb657fd09c",
+                "reference": "57f1ce82c997f5a8701b89ef970e36bb657fd09c",
                 "shasum": ""
             },
             "require": {
@@ -1750,7 +1750,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16T10:59:17+00:00"
+            "time": "2019-02-23T15:06:07+00:00"
         },
         {
             "name": "twig/twig",
