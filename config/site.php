@@ -7,6 +7,7 @@
  */
 
 return [
+    'name' => 'Yii Start App',
     'controllerNamespace' => 'site\controllers',
     'components' => [
         'view' => [
