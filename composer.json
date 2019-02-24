@@ -52,7 +52,10 @@
     "config-plugin": {
       "params": "config/params.php",
       "core": "config/core.php",
-      "admin": "config/admin.php",
+      "admin": [
+        "$adminlte2",
+        "config/admin.php"
+      ],
       "site": [
         "$bootswatch",
         "config/site.php"
