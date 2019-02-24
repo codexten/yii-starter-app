@@ -7,4 +7,5 @@
  */
 
 return [
+//    'bootswatch.theme' => 'paper',
 ];
