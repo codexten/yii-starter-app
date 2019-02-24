@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "942b4373f7c08c821dcad15175407944",
+    "content-hash": "376a374882c29f441f6dca1ba69c04bd",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -180,6 +180,48 @@
             "time": "2018-12-10T09:41:35+00:00"
         },
         {
+            "name": "codexten/app-admin-dev",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:codexten/app-admin-dev.git",
+                "reference": "f7d9d4ddc72b2d666c58070a8c2d0932d78bb37d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/codexten/app-admin-dev/9999999-dev/f7d9d4ddc72b2d666c58070a8c2d0932d78bb37d.zip",
+                "reference": "f7d9d4ddc72b2d666c58070a8c2d0932d78bb37d",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "codexten/yii-core": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "config-plugin": {
+                    "hidev": "src/config/hidev.php",
+                    "core": "src/config/core.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "codexten\\admin\\dev\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "Eii storage",
+            "time": "2019-02-19T17:18:10+00:00"
+        },
+        {
             "name": "codexten/app-site-dev",
             "version": "dev-master",
             "source": {
@@ -268,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-app-admin.git",
-                "reference": "38debde59e3ebd3ed8193cea7b0c56943cf0a371"
+                "reference": "5133746c0277f11ee91b5989942eaa9c8524af06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/38debde59e3ebd3ed8193cea7b0c56943cf0a371",
-                "reference": "38debde59e3ebd3ed8193cea7b0c56943cf0a371",
+                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/5133746c0277f11ee91b5989942eaa9c8524af06",
+                "reference": "5133746c0277f11ee91b5989942eaa9c8524af06",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -283,6 +325,7 @@
                 ]
             },
             "require": {
+                "codexten/app-admin-dev": "~2.0",
                 "codexten/yii-web": "~2.0",
                 "entero/entero-admin-module-user": "~2.0"
             },
@@ -315,7 +358,7 @@
                 "source": "https://github.com/codexten/yii-app-admin/tree/master",
                 "issues": "https://github.com/codexten/yii-app-admin/issues"
             },
-            "time": "2019-02-23T17:41:20+00:00"
+            "time": "2019-02-23T17:52:31+00:00"
         },
         {
             "name": "codexten/yii-app-console",
@@ -652,6 +695,51 @@
             "notification-url": "https://repo.packagist.com/entero/downloads/",
             "description": "Eii User admin module",
             "time": "2018-11-18T17:21:42+00:00"
+        },
+        {
+            "name": "entero/entero-app-site",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.entero.in:entero/entero-app-site.git",
+                "reference": "4048099f68d4ec63736ebbbb2f1b2dff7a1535a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/entero/dists/entero/entero-app-site/9999999-dev/4048099f68d4ec63736ebbbb2f1b2dff7a1535a6.zip",
+                "reference": "4048099f68d4ec63736ebbbb2f1b2dff7a1535a6",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/entero/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "codexten/app-site-dev": "~2.0",
+                "codexten/yii-web": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "config-plugin": {
+                    "site": [
+                        "$web",
+                        "src/config/site.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "eii\\site\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/entero/downloads/",
+            "description": "Eii storage",
+            "time": "2019-02-21T11:21:00+00:00"
         },
         {
             "name": "entero/entero-module-user",
