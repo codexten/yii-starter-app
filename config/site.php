@@ -8,4 +8,15 @@
 
 return [
     'controllerNamespace' => 'site\controllers',
+    'components' => [
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => [
+                        '@site/views',
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5d04b344a2d5651a4a51f5a3a0927cc",
+    "content-hash": "1179a18d193a22be9f372843ce08b0b8",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -368,12 +368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-app-admin.git",
-                "reference": "98bcb15207acd84cf4471898bdd8155bda414a83"
+                "reference": "7ea407fc796d29b27a83522d7ec125450744582e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/98bcb15207acd84cf4471898bdd8155bda414a83",
-                "reference": "98bcb15207acd84cf4471898bdd8155bda414a83",
+                "url": "https://api.github.com/repos/codexten/yii-app-admin/zipball/7ea407fc796d29b27a83522d7ec125450744582e",
+                "reference": "7ea407fc796d29b27a83522d7ec125450744582e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -416,7 +416,7 @@
                 "source": "https://github.com/codexten/yii-app-admin/tree/master",
                 "issues": "https://github.com/codexten/yii-app-admin/issues"
             },
-            "time": "2019-02-24T11:32:02+00:00"
+            "time": "2019-02-24T14:13:21+00:00"
         },
         {
             "name": "codexten/yii-app-console",
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-app-site.git",
-                "reference": "63dcfd4734a8563272d6b8f0049548b24c92f016"
+                "reference": "14a29941a5966d3feea9936467adc0c20cf977e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-app-site/zipball/63dcfd4734a8563272d6b8f0049548b24c92f016",
-                "reference": "63dcfd4734a8563272d6b8f0049548b24c92f016",
+                "url": "https://api.github.com/repos/codexten/yii-app-site/zipball/14a29941a5966d3feea9936467adc0c20cf977e8",
+                "reference": "14a29941a5966d3feea9936467adc0c20cf977e8",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -517,7 +517,7 @@
                 "source": "https://github.com/codexten/yii-app-site/tree/master",
                 "issues": "https://github.com/codexten/yii-app-site/issues"
             },
-            "time": "2019-02-24T11:32:02+00:00"
+            "time": "2019-02-24T14:13:21+00:00"
         },
         {
             "name": "codexten/yii-bootswatch",
@@ -525,12 +525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-bootswatch.git",
-                "reference": "80dfd767c9be7f21d57c84a94b3ada0623030959"
+                "reference": "8a4b4ffff8dd89abb06b47b63bc01bf8aea06b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-bootswatch/zipball/80dfd767c9be7f21d57c84a94b3ada0623030959",
-                "reference": "80dfd767c9be7f21d57c84a94b3ada0623030959",
+                "url": "https://api.github.com/repos/codexten/yii-bootswatch/zipball/8a4b4ffff8dd89abb06b47b63bc01bf8aea06b08",
+                "reference": "8a4b4ffff8dd89abb06b47b63bc01bf8aea06b08",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -541,15 +541,19 @@
             },
             "require": {
                 "bower-asset/bootswatch": "~3.0",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "codexten/yii-web": "~2.0",
+                "yiisoft/yii2-bootstrap": "~2.0"
             },
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 },
-                "sconfig-plugin": {
-                    "bootswatch": "src/config/bootswatch.php"
+                "config-plugin": {
+                    "bootswatch": [
+                        "$web",
+                        "config/bootswatch.php"
+                    ]
                 }
             },
             "autoload": {
@@ -563,7 +567,7 @@
                 "source": "https://github.com/codexten/yii-bootswatch/tree/master",
                 "issues": "https://github.com/codexten/yii-bootswatch/issues"
             },
-            "time": "2019-02-24T13:46:21+00:00"
+            "time": "2019-02-24T14:33:50+00:00"
         },
         {
             "name": "codexten/yii-core",
@@ -1885,12 +1889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codexten/yii-dev.git",
-                "reference": "086ca757d670b091609bf26fd8fa0453d89786ac"
+                "reference": "3b3eb4a2b41f991a4901d49b5ec19bdb26c693ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/086ca757d670b091609bf26fd8fa0453d89786ac",
-                "reference": "086ca757d670b091609bf26fd8fa0453d89786ac",
+                "url": "https://api.github.com/repos/codexten/yii-dev/zipball/3b3eb4a2b41f991a4901d49b5ec19bdb26c693ac",
+                "reference": "3b3eb4a2b41f991a4901d49b5ec19bdb26c693ac",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1933,7 +1937,7 @@
                 "hidev",
                 "yii"
             ],
-            "time": "2019-02-23T17:41:20+00:00"
+            "time": "2019-02-24T13:52:11+00:00"
         },
         {
             "name": "hiqdev/composer-config-plugin",
