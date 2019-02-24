@@ -11,8 +11,7 @@
     "codexten/yii-app-admin": "~2.0",
     "codexten/yii-app-site": "~2.0",
     "codexten/yii-app-console": "~2.0",
-    "codexten/yii-mailqueue": "~2.0",
-    "entero/entero-core": "~2.0"
+    "codexten/yii-mailqueue": "~2.0"
   },
   "require-dev": {
     "codexten/yii-dev": "~2.0"
