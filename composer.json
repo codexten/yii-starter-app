@@ -52,7 +52,10 @@
       "params": "config/params.php",
       "core": "config/core.php",
       "admin": "config/admin.php",
-      "site": "config/site.php"
+      "site": [
+        "$bootswatch",
+        "config/site.php"
+      ]
     }
   }
 }
