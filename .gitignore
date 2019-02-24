@@ -18,6 +18,10 @@
 Thumbs.db
 nbproject
 
+# Admin directories
+/public/admin/assets/*
+runtime/admin/*
+
 # site directories
 /public/site/assets/*
 runtime/frontend/*
