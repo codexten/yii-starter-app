@@ -22,14 +22,18 @@
   "autoload": {
     "psr-4": {
       "core\\": "src/core",
-      "admin\\": "src/core",
-      "site\\": "src/core"
+      "admin\\": "src/admin",
+      "site\\": "src/site"
     }
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://repo.packagist.com/entero/"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
     }
   ],
   "config": {

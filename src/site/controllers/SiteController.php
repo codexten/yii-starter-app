@@ -9,7 +9,11 @@
 namespace site\controllers;
 
 
-class SiteController
+class SiteController extends \codexten\yii\web\controller
 {
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
 
 }

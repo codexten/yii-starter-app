@@ -9,6 +9,11 @@
 return [
     'name' => 'Yii Start App',
     'controllerNamespace' => 'site\controllers',
+    'controllerMap' => [
+        'site' => [
+            'class' => \site\controllers\SiteController::class,
+        ],
+    ],
     'components' => [
         'view' => [
             'theme' => [
