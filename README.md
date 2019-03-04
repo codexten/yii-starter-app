@@ -6,7 +6,7 @@ Yii starter app with admin panel for yii 2.0 or higher
 ## clone project
 
 ```
-git clone https://github.com/codexten/yii-starter-app.git <projects dir>/<project name>/<project name>-master
+git clone https://github.com/codexten/yii-starter-app.git project-name
 
 ```
 
