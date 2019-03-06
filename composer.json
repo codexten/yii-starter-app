@@ -57,6 +57,7 @@
     "config-plugin": {
       "params": "config/params.php",
       "core": "config/core.php",
+      "console": "config/console.php",
       "admin": [
         "$adminlte2",
         "$moduleAuth",
