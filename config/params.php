@@ -7,5 +7,7 @@
  */
 
 return [
-//    'bootswatch.theme' => 'paper',
+    //bootswatch
+    'bootswatch.theme' => 'cosmo',
+
 ];

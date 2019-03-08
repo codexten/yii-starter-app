@@ -8,8 +8,7 @@
 
 namespace site\controllers;
 
-
-class SiteController extends \codexten\yii\web\controller
+class SiteController extends \codexten\yii\web\controllers\SiteController
 {
     public function actionIndex()
     {

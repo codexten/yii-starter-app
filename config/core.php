@@ -6,4 +6,6 @@
  * Time: 10:35 PM
  */
 
-return [];
+return [
+    'name' => 'Starter App',
+];

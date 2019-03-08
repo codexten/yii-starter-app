@@ -1,2 +1,20 @@
-config:
-  messageCategory: app
+#config:
+#  messageCategory: app
+#migration:
+#  create_customer_table:
+#    fields: |
+#      user_id:integer:notNull:foreignKey(user),
+#      name:string(255),
+#      address:string(512),
+#      mobile_number:string(50),
+#      city:string(255),
+#      state_code:string(50),
+#      status:smallInteger,
+#      created_at:integer,
+#      updated_at:integer
+#model:
+#  customer:
+#crud:
+#  customer:
+#    modelClass: core\models\Customer
+#    namespace: admin\
