@@ -6,7 +6,7 @@ nginx:
     webDir: /project/starter/starter-master/public/site
   s.starter.yii:
     ips: 0.0.0.0:80
-    domain: admin.starter.yii
+    domain: s.starter.yii
     webDir: /project/starter/starter-master/public/storage
   admin.starter.yii:
     ips: 0.0.0.0:80
