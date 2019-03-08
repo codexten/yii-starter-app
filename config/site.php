@@ -10,7 +10,7 @@
 return \yii\helpers\ArrayHelper::merge(
 // main config
     [
-        'defaultRoute' => '/customer-mobile/index',
+        'defaultRoute' => '/site/index',
         'controllerNamespace' => 'site\controllers',
         'controllerMap' => [
             'site' => [
