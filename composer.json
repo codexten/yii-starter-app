@@ -48,7 +48,7 @@
     "post-install-cmd": [
       "./vendor/bin/hidev ext",
       "composer du --verbose",
-      "chown -R www-data:www-data /cpanel /en /project"
+      "chown -R www-data:www-data ."
     ],
     "post-update-cmd": [
       "composer install"
