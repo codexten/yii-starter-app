@@ -3,12 +3,12 @@ nginx:
   starter.yii:
     ips: 0.0.0.0:80
     domain: starter.yii
-    webDir: /project/starter/starter-master/public/site
+    webDir: /projects/starter/starter-master/public/site
   s.starter.yii:
     ips: 0.0.0.0:80
     domain: s.starter.yii
-    webDir: /project/starter/starter-master/public/storage
+    webDir: /projects/starter/starter-master/public/storage
   admin.starter.yii:
     ips: 0.0.0.0:80
     domain: admin.starter.yii
-    webDir: /project/starter/starter-master/public/admin
+    webDir: /projects/starter/starter-master/public/admin
