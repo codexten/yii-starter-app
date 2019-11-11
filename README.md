@@ -1,26 +1,12 @@
-# yii-starter-app
-Yii starter app with admin panel for yii 2.0 or higher
 
-# installation
-
-## clone project
+# project setup
 
 ```
-git clone https://github.com/codexten/yii-starter-app.git project-name
-
-```
-
-## Edit hidev.yml
-
-## Update hidev local
-
-```
+git clone https://github.com/codexten/yii-starter-app.git project-name/project-name-0.1
+cd project-name/project-name-0.1
+cp .env.dist .env
 cp hidev-local.yml.dist hidev-local.yml
-```
-
-## Install dependencies
-
-```
 composer update --prefer-dist --no-progress --profile
-
+./vendor/bin/hidev deploy
+./vendor/bin/hidev app/setup
 ```
